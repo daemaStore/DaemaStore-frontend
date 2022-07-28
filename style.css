@@ -1,0 +1,286 @@
+@font-face {
+  font-family: "Playbill";
+  src: url("font/PLAYBILL.TTF") format(truetype);
+  font-weight: normal;
+}
+@font-face {
+  font-family: "H2GPRM";
+  src: url("font/H2GPRM.TTF") format(truetype);
+  font-weight: normal;
+}
+
+#header {
+  width: 98vw;
+  height: 150px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+#title {
+  font-size: 70px;
+  color: white;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+#backDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 80vh;
+  width: 95vw;
+}
+#chat {
+  height: 50px;
+  width: 50px;
+  background-image: url("img/iconmonstr-speech-bubble-15-240.png");
+  background-size: cover;
+}
+
+#underText {
+  color: white;
+}
+
+#center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 600px;
+}
+#enterBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 200px;
+}
+#sirialEnter {
+  background-color: black;
+  border: solid 2px #ffffff;
+  border-radius: 20px;
+  width: 400px;
+  height: 60px;
+  font-family: "Playbill";
+  font-size: 60px;
+  text-align: center;
+  color: #ffffff;
+}
+
+#enterButton {
+  height: 60px;
+  width: 200px;
+  background-color: white;
+  border-radius: 20px;
+  font-family: "Playbill";
+  font-size: 60px;
+}
+#underText {
+  display: flex;
+  justify-content: end;
+  font-size: 20px;
+}
+/**/
+
+#orderBox {
+  height: 80vh;
+  width: 98vw;
+  margin: 0%;
+  display: flex;
+  justify-content: center;
+}
+
+#menuList {
+  height: 75vh;
+  width: 60vw;
+  margin: 10px;
+  background-color: #444444;
+}
+
+#listBox {
+  height: 65vh;
+  width: 60vw;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  overflow: auto;
+}
+#menu {
+  height: 200px;
+  width: 200px;
+  background-color: #444444;
+  border: solid 2px #707070;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#menuBan {
+  width: 60vw;
+  height: 50px;
+  background-color: #6d6d6d;
+  display: flex;
+  justify-content: end;
+}
+
+#menuColl {
+  width: 150px;
+  height: 40px;
+  background-color: black;
+  border-radius: 20px;
+  margin: 3px;
+  font-family: "Playbill";
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: #ffffff;
+}
+#orderList {
+  height: 60vh;
+  width: 30vw;
+  background-color: #444444;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+#orderBut {
+  color: white;
+  font-family: "Playbill";
+  font-size: 50px;
+  width: 30vw;
+  height: 110px;
+  margin: 10px;
+  background-color: #444444;
+  border: solid 5px #ffffff;
+  border-radius: 30px;
+  outline: none;
+}
+
+#menuImg {
+  background-image: url("img/라면사진.jpg");
+  background-size: cover;
+  height: 170px;
+  width: 170px;
+}
+#plus {
+  width: 20px;
+  height: 20px;
+}
+
+#order {
+  background-color: #444444;
+  border-bottom: solid 2px #707070;
+  border-top: solid 2px #707070;
+  height: 80px;
+  width: 30vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border: solid, 2px, #707070;
+}
+
+#orderImg {
+  background-image: url("img/라면사진.jpg");
+  background-size: cover;
+  height: 50px;
+  width: 50px;
+}
+
+#number {
+  height: 49px;
+  width: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  font-family: "Playbill";
+  font-size: 30px;
+}
+#chatBox {
+  height: 70vh;
+  width: 95vw;
+  background-color: #444444;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+}
+
+#myChat {
+  color: black;
+  font-family: "H2GPRM";
+  font-size: 18px;
+  background-color: #969696;
+  width: 35vw;
+  margin: 30px;
+  border-radius: 20px;
+  padding: 10px;
+  margin-left: 50vw;
+}
+
+#yourChat {
+  color: white;
+  font-family: "H2GPRM";
+  font-size: 18px;
+  background-color: black;
+  width: 35vw;
+  margin: 30px;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+#chatInput {
+  height: 70px;
+  width: 80vw;
+  font-size: 18px;
+  font-family: "H2GPRM";
+  overflow: auto;
+}
+
+#chatEnter {
+  background-color: #ffffff;
+  color: #000000;
+  font-family: "Playbill";
+  border-radius: 30px;
+  font-size: 20px;
+  width: 10vw;
+  height: 50px;
+  margin: 5px;
+}
+
+#typing {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.addMin {
+  height: 50px;
+  width: 15px;
+  background-color: #707070;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.koreanText {
+  font-family: "H2GPRM";
+}
+
+body {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+p {
+  color: white;
+  font-family: "Playbill";
+  font-size: 30px;
+  margin: 0;
+}
